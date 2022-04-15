@@ -1041,4 +1041,15 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+
+  .img-responsive {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+  }
 }
