@@ -18,6 +18,23 @@ a:hover {
   cursor: pointer;
 }
 
+.bg-txt {
+  font-size: 20px;
+}
+
+.ft-txt {
+  font-size: 16px;
+}
+
+.sml-txt {
+  font-size: 14px;
+}
+
+.black-txt {
+  color: #000000;
+  font-weight: bold;
+}
+
 #page-loading-blocs-notifaction {
   position: fixed;
   top: 0;
@@ -88,11 +105,6 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-.texture-paper::before {
-  background: url("img/texture-paper.png");
-  background-size: 280px 280px;
 }
 
 .b-parallax {
