@@ -737,11 +737,11 @@ h3 {
 }
 
 h1 {
-  color: #333333 !important;
+  color: #222222 !important;
 }
 
 h4 {
-  color: #333333 !important;
+  color: #222222 !important;
 }
 
 .icons {
@@ -785,23 +785,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #de5719;
+  background-color: #f3976c;
 }
 
 .tc-white {
-  color: #de5719 !important;
+  color: #f3976c !important;
 }
-.tc-dark {
-  color: #000000;
-}
+
 .btn-atomic-tangerine {
-  background: #de5719;
-  color: #ffffff !important;
+  background: #f3976c;
+  color: #222222 !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #de5719 !important;
-  color: #ffffff !important;
+  background: #c27956 !important;
+  color: #222222 !important;
 }
 
 .ltc-white {
@@ -813,7 +811,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #de5719 !important;
+  color: #f3976c !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -823,6 +821,14 @@ h4 {
 .icon-dark-slate-blue {
   color: #364577 !important;
   border-color: #364577 !important;
+}
+
+.black {
+  color: #222222 !important;
+}
+
+.icon-md:hover {
+  color: #ebe9e9 !important;
 }
 
 .bg-banniere {
