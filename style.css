@@ -843,11 +843,6 @@ h4 {
   background-image: url("img/image-de-presentation.jpg");
 }
 
-.out-screen {
-  position: absolute;
-  left: -99999rem;
-}
-
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
