@@ -95,12 +95,18 @@
               <div class="col-sm-6">
                 <form id="form_1" novalidate>
                   <div class="form-group">
-                    <label> Nom </label>
-                    <input id="name" class="form-control" required />
+                    <label for="name"> Nom </label>
+                    <input
+                      name="name"
+                      id="name"
+                      class="form-control"
+                      required
+                    />
                   </div>
                   <div class="form-group">
-                    <label> Adresse email </label>
+                    <label for="email"> Adresse email </label>
                     <input
+                      name="email"
                       id="email"
                       class="form-control"
                       type="email"
@@ -108,8 +114,11 @@
                     />
                   </div>
                   <div class="form-group">
-                    <label> Comment nous avez-vous connu ? </label>
+                    <label for="additional-info">
+                      Comment nous avez-vous connu ?
+                    </label>
                     <input
+                      name="additional-info"
                       class="form-control"
                       type="text"
                       required="required"
@@ -117,10 +126,11 @@
                     />
                   </div>
                   <div class="form-group">
-                    <label>
+                    <label for="brief">
                       Brief de votre projet (Ajoutez autant de détails que
                       nécessaire)<br /> </label
                     ><textarea
+                      name="brief"
                       id="message"
                       class="form-control"
                       rows="4"
